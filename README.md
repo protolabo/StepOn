@@ -1,6 +1,6 @@
 # Projet IFT3150: StepOn
 
-> **Page web du projet (IFT3150)**:
+> **Page web du projet (IFT3150)**: https://protolabo.github.io/StepOn/
 
 ## Description du projet 
 
