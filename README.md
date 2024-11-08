@@ -42,7 +42,50 @@ Retrouvez toute la documentation détaillée sur la [page web du projet](https:/
 
 # 🗂️ Organisation
 
-<!-- TODO -->
+## Liste des Pages à Implémenter
+
+1. **Page d'accueil (Home)**
+    - Présentation en roue de l'accomplissement de pas quotidien
+    - Présentation des principales fonctionnalités de l'application (creer un parcours, afficher les anciens parcours..).
+    - Affichage des données d'activité de l'utilisateur.
+
+2. **Page de connexion (Login)**
+    - Formulaire de connexion avec numero de téléphone.
+    - Formulaire de connexion avec e-mail et mot de passe.
+    - Lien vers la page de mot de passe oublié.
+
+3. **Page d'inscription (Sign Up)**
+    - Formulaire d'inscription avec saisie des informations personnelles de l'utilisateur.
+    - Option pour accepter les conditions d'utilisation .
+
+4. **Page de mot de passe oublié (Forgot Password)**
+    - Saisie du numéro de téléphone pour réinitialiser le mot de passe.
+
+5. **Page de parcours (Map)**
+    - Carte interactive intégrée avec affichage des itinéraires générés.
+    - Options pour définir, personnaliser et sauvegarder les itinéraires.
+    - Suivi en temps réel de la position de l'utilisateur pendant le parcours.
+
+6. **Page de profil (Profil)**
+    - Affichage et modification des informations utilisateur.
+    - Suivi des progrès et des statistiques de parcours complétés.
+    - Option de déconnexion.
+
+7. **Page de paramètres (Settings)**
+    - Options de configuration pour les notifications, la confidentialité et les préférences d'affichage.
+    - Gestion des permissions de localisation.
+
+
+## 📌 Notes Techniques
+
+- **Navigation** : Utilisation de `react-navigation` pour organiser la navigation entre les différentes pages.
+- **Authentification** : Intégration de Firebase pour la gestion de l'authentification utilisateur.
+- **Géolocalisation** : Utilisation de `react-native-maps` et de l'API Google Maps pour les fonctionnalités de parcours et de géolocalisation.
+
+---
+
+Ces pages forment la base de l'application et permettent d'assurer une expérience utilisateur fluide et complète.
+
 
 # 💻 Installation
 
